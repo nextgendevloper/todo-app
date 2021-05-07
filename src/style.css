@@ -1,0 +1,30 @@
+body
+{
+  background:slateblue;
+  font-family:arial;
+
+}
+
+.flex
+{
+  display:flex;
+  flex-flow:wrap;
+}
+
+.flex .item
+{
+  width:15%;
+  padding:1%;
+  margin:1%;
+  box-shadow:0 0 5px black;
+}
+.flex .item.active
+{
+  background:lime;
+}
+
+.flex .item
+{
+background:tomato;
+color:white;
+}
